@@ -17,6 +17,6 @@ describe('Api Integration Test', () => {
 
         // Assert
         assert.equal(response.status, 200);
-        assert.equal(response.body.message, 'Aplicação - DevOps Mercurianos!');
+        assert.equal(response.body.message, 'Aplicação - DevOps Mercurianos - Cássio Gamarra! Pona says: Chora não 😢');
     });
 });
