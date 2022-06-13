@@ -33,7 +33,7 @@ describe('App Integration Test', () => {
 
         // Assert
         assert.equal(response.status, 200);
-        assert.ok(response.text.includes('color: black'));
+        assert.ok(response.text.includes('color: green'));
         assert.ok(response.text.includes('<h1>Aplicação - DevOps Mercurianos!</h1>'));
     });
 
